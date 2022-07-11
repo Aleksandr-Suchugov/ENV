@@ -1,11 +1,6 @@
-// TODO: write code here
+import '../css/style.css';
+import GoblinGame from './GoblinGame';
 
-// comment this to pass build
-// const unusedVariable = 'variable';
-
-// for demonstration purpose only
-export default function demo(value) {
-  return value;
-}
-
-// console.log('app.js included');
+const goblinGame = new GoblinGame();
+goblinGame.boardGeneration(8);
+goblinGame.imgCreate(2000);
