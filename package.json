@@ -43,5 +43,5 @@
   },
   "dependencies": {},
   "repository": "https://github.com/Aleksandr-Suchugov/ENV.git",
-  "private": null
+  "private": false
 }
